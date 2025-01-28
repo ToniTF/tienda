@@ -32,10 +32,10 @@ if (isset($_SESSION["username"])) {
                 <ul> <!-- Lista de navegación -->
                     <li><a href="tienda"><i class="fa-solid fa-store"></i>Inicio</a></li> <!-- Enlace a la página de inicio -->
                     <li><a href="proveedores"><i class="fa-solid fa-boxes-packing"></i>Proveedores</a></li> <!-- Enlace a la página de proveedores -->
-                    <li><a href="clientes">Clientes</a></li> <!-- Enlace a la página de clientes -->
-                    <li><a href="categorias">Categorias</a></li> <!-- Enlace a la página de categorías -->
-                    <li><a href="productos">Productos</a></li> <!-- Enlace a la página de productos -->
-                    <li><a href="ventas">Ventas</a></li> <!-- Enlace a la página de ventas -->
+                    <li><a href="clientes"><i class="fa-solid fa-user"></i>Clientes</a</li> <!-- Enlace a la página de clientes -->
+                    <li><a href="categorias"><i class="fa-solid fa-list"></i>Categorias</a></li> <!-- Enlace a la página de categorías -->
+                    <li><a href="productos"><i class="fa-brands fa-product-hunt"></i>Productos</a></li> <!-- Enlace a la página de productos -->
+                    <li><a href="ventas"><i class="fa-regular fa-money-bill-1"></i>Ventas</a></li> <!-- Enlace a la página de ventas -->
                 </ul>
             </aside>
             <section> <!-- Sección principal -->
