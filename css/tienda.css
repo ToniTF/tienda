@@ -5,18 +5,28 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: darkorange;
 }
 header i{
     font-size: 30px;
    
 }
+header p{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px 0px 15px 0px;
+    font-size: 20px;
+}
 .container{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 main{
     display: flex;
     flex-wrap: nowrap;
+    background-color: rgb(233, 191, 114);
 }
 main aside{
     width: 30%;
@@ -27,6 +37,7 @@ main section{
 }
 aside ul{
     list-style: none;
+    justify-content: center;
 }
 aside ul li{
     margin-top: 10px;
@@ -39,3 +50,7 @@ aside ul li i{
     justify-content: space-between;
     align-items: center;
 }
+.listado h1{
+    text-align: center;
+}
+
