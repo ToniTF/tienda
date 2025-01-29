@@ -23,7 +23,7 @@ $result = $conexion->query($sql);
                     echo "<td>" . $fila['id'] . "</td>";
                     echo "<td>" . $fila['nombre'] . "</td>";
                     echo "<td>" . $fila['descripcion'] . "</td>";
-                    echo "<td><a href='editar_categoria.php?id=" . $fila['id'] . "'>Editar</a> | <a href='categorias?id=" . $fila['id'] . "'>Añadir</a> | <a href='categoria?id=" . $fila['id'] . "'>Ver</a></td>";
+                    echo "<td><a href='editar_categoria.php?id=" . $fila['id'] . "'>Editar</a> | <a href='categoria?id=" . $fila['id'] . "'>Ver</a></td>";
                     echo "</tr>";
                 }
                 ?>
